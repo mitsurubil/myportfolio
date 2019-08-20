@@ -1,23 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import Bg from './bg-hp.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-dwxgh        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='text-block'>
+        <h1>Bilal Nehiri</h1>
+        <p>London based Full-Stack Web-Developer</p>
+      </div>
+      <img src={Bg} alt='Laptop with Matrix background' />
     </div>
   );
 }
