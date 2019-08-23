@@ -1,28 +1,107 @@
 .App {
   text-align: center;
-  position: relative;
 }
 
 img {
   width: 100%;
 }
 
+.container1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1;
+  flex-basis: 120px;
+}
+
 .text-block {
   position: absolute;
-  text-align: justify;
   color: white;
-  top: 20px;
-  right: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 5%; /*Adjust this value to move the positioned div up and down */
+  /* width: 60%; Set the width of the positioned div */
 }
 
 .aboutme {
   background-color: #003B00;
 }
 
-.skills {
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.logo {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */
+
+
+
+
+.navbar {
+  /* margin: 1rem; */
+  justify-content: space-between;
+  background-color: #1B2326;
+  color: white;
+}
+
+.overlay {
+  display: none;
+}
+
+.logo:hover .overlay {
+  display: inline;
 }
 
 
 
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    display: flex;
+    /* margin: 1rem; */
+    justify-content: space-between;
+    background-color: #1B2326;
+    color: white;
+  }
+  .portfolio h2 {
+    color: white;
+    padding: 0 1rem;
+  }
+  .nav{
+    display: inline-flex;
+    align-items: center;
+  }
+  .nav h4{
+    color: white;
+    padding: 0 2rem;
+  }
+}
