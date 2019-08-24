@@ -14,7 +14,9 @@ img {
 
 .item {
   flex: 1;
-  flex-basis: 120px;
+  flex-basis: 600px;
+  position: relative;
+  overflow: hidden;
 }
 
 .text-block {
@@ -56,11 +58,18 @@ img {
 }
 
 .overlay {
-  display: none;
+  transition: bottom ease 1s;
+  /* transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  background-color:rgb(255, 255, 255, 0.5);
+
 }
 
-.logo:hover .overlay {
-  display: inline;
+.item:hover .overlay {
+  bottom: 0;
 }
 
 

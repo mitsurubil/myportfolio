@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './navbar.js';
 import Bg from './images/bg-hp.jpg';
+import Technology from './technologies';
 import JavaScript from './images/javascript-icon.svg';
 import ReactJs from './images/react-icon.svg';
 import Html5 from './images/html5-icon.svg';
@@ -29,36 +30,13 @@ function App() {
       </div>
       <h1>Skills</h1>
       <div className='container2'>
-        <div>
-          <img src={JavaScript} alt='JavaScript Logo' className='logo' />
-          <div className='overlay'>
-           <p>JavaScript</p>
-          </div>
-        </div>
-        <div>
-          <img src={ReactJs} alt='ReactJS Logo' className='logo' />
-          <p>ReactJS</p>
-        </div>
-        <div>
-          <img src={Html5} alt='HTML5 Logo' className='logo' />
-          <p>HTML5</p>
-        </div>
-        <div>
-          <img src={Css3} alt='CSS3 Logo' className='logo' />
-          <p>CSS3</p>
-        </div>
-        <div>
-          <img src={Nodejs} alt='Node.js Logo' className='logo' />
-          <p>Node.js</p>
-        </div>
-        <div>
-          <img src={Mongodb} alt='MongoDB Logo' className='logo' />
-          <p>MongoDB</p>
-        </div>
-        <div>
-          <img src={Heroku} alt='Heroku Logo' className='logo' />
-          <p>Heroku</p>
-        </div>
+        <Technology name='JavaScript' logo={JavaScript} />
+        <Technology name='ReactJS' logo={ReactJs} />
+        <Technology name='HTML5'  logo={Html5} />
+        <Technology name='CSS3' logo={Css3} />
+        <Technology name='Node.js' logo={Nodejs} />
+        <Technology name='MongoDB' logo={Mongodb} />
+        <Technology name='Heroku' logo={Heroku} />
       </div>
       {/* <div><User firstName='Bilal' lastName='Nehiri' /></div> */}
     </div>
