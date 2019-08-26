@@ -1,12 +1,12 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
     <div className="navbar">
       <div className="portfolio">
-        <Link to='/'><h2>My Portfolio</h2></Link>
+        <h2>My Portfolio</h2>
       </div>
       <div className="nav">
         <AnchorLink href='#aboutme'><h4>About me</h4></AnchorLink>
