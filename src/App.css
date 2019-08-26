@@ -2,8 +2,14 @@
   text-align: center;
 }
 
+a {
+  text-decoration-line: none;
+  color: white;
+}
+
 img {
   width: 100%;
+  height: 100%;
 }
 
 .container1 {
@@ -17,7 +23,6 @@ img {
   flex-basis: 600px;
   position: relative;
   overflow: hidden;
-  object-fit: contain; /*to fix streching problem */
 }
 
 .text-block {
@@ -49,15 +54,15 @@ img {
 /* <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */
 
 
-/*
+
 
 .navbar {
-  margin: 1rem;
+ /* margin: 1rem;*/
   justify-content: space-between;
   background-color: #1B2326;
   color: white;
 }
-*/
+
 .overlay {
   transition: bottom ease 1s;
   /* transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
@@ -71,12 +76,6 @@ img {
 
 .item:hover .overlay {
   bottom: 0;
-}
-
-
-body.custom-background{
-  background-size: contain !important;
-  background-repeat: repeat !important;
 }
 
 
@@ -97,10 +96,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @media only screen and (min-width: 600px) {
-  /*
+  
   .navbar {
     display: flex;
-    margin: 1rem;
+    /*margin: 1rem;*/
     justify-content: space-between;
     background-color: #1B2326;
     color: white;
@@ -117,5 +116,5 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     padding: 0 2rem;
   }
-  */
+  
 }

@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css';//added for myportfiolio
+// import 'bootstrap/dist/css/bootstrap.css';//added for myportfiolio
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

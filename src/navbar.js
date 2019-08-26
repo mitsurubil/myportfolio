@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Link } from 'react-router-dom';
 
 export default function NavBar() {
@@ -8,9 +9,9 @@ export default function NavBar() {
         <Link to='/'><h2>My Portfolio</h2></Link>
       </div>
       <div className="nav">
-        <Link to='/about-me'><h4>About me</h4></Link>
-        <Link to='/skills'><h4>Skills</h4></Link>
-        <Link to='/projects'><h4>Projects</h4></Link>
+        <AnchorLink href='#aboutme'><h4>About me</h4></AnchorLink>
+        <AnchorLink href='#skills'><h4>Skills</h4></AnchorLink>
+        <AnchorLink href='#projects'><h4>Projects</h4></AnchorLink>
       </div>
     </div>
   );
