@@ -6,7 +6,7 @@ export default function Background() {
         <div className='container1'>
             <img src={Bg} alt='Black laptop turned on' className='item' />
             <div className='text-block'>
-                <h1>Bil Nehiri</h1>
+                <h1>Bilal Nehiri</h1>
                 <p>London based Full-Stack Web-Developer</p>
             </div>
         </div>
