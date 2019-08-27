@@ -1,5 +1,5 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from './navbar';
 import Background from './background';
 import AboutMe from './aboutme';
@@ -10,14 +10,14 @@ import './App.css';
 
 function App() {
   return (
-    // <Router>
+    <Router>
       <div className='App'>
-        <NavBar />
+        <Route exact path='/' component={NavBar} />
         <Background />
         <AboutMe />
         <Skills />
       </div>
-    // </Router>
+    </Router>
   );
 }
 

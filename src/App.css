@@ -40,6 +40,11 @@ img {
   background-color: #003B00;
 }
 
+.aboutme p{
+  width: 50%;
+  margin: auto;
+}
+
 .container2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -65,7 +70,7 @@ img {
 
 .overlay {
   transition: bottom ease 1s;
-  /* transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: absolute;
   bottom: -50px;
   left: 0;
@@ -87,14 +92,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 600px) {
   
   .navbar {
@@ -103,6 +100,9 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     background-color: #1B2326;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
   .portfolio h2 {
     color: white;
