@@ -4,7 +4,7 @@ import getTechnologies from './getTechnologies';
 
 export default function Skills() {
     return (
-        <div id='skills'>
+        <div className='skills' id='skills'>
             <h1>Skills</h1>
             <div className='container2'>
                 {

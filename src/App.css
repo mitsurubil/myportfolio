@@ -27,11 +27,6 @@ img {
   flex-wrap: wrap;
 }
 
-bg {
-  height: 100vh;
-  width: 100vh;
-}
-
 .item {
   flex: 1;
   flex-basis: 600px;
@@ -52,11 +47,16 @@ bg {
 
 .aboutme {
   background-color: #003B00;
+  padding-top: 80px;
 }
 
-.aboutme p{
-  width: 50%;
+.aboutme p {
+  width: 80%;
   margin: auto;
+}
+
+.skills {
+  padding-top: 80px;
 }
 
 .container2 {
@@ -136,6 +136,9 @@ h1, h2, h3, h4, h5, h6 {
   .nav h4{
     color: white;
     padding: 0 2rem;
+  }
+  .aboutme, .skills {
+    padding-top: 28px;
   }
   
 }
