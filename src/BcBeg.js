@@ -1,6 +1,8 @@
-// import React from 'react';
+import React from 'react';
 
-// function User({ firstName, lastName}) {
+
+
+// export default function User({ firstName, lastName}) {
 //     return(
 //         <>
 //         <div>
@@ -34,5 +36,5 @@
 //     )
 // }
 
-// export default User;
+
     

@@ -1,3 +1,7 @@
+/* body {
+  background-image: url('./images/bg-hp.jpg');
+} */
+
 .App {
   text-align: center;
 }
@@ -6,6 +10,11 @@ a {
   text-decoration-line: none;
   color: white;
 }
+
+.navbar:hover {
+  opacity: 0.5;
+  transition: 2s;
+} 
 
 img {
   width: 100%;
@@ -16,6 +25,11 @@ img {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+}
+
+bg {
+  height: 100vh;
+  width: 100vh;
 }
 
 .item {
@@ -51,6 +65,13 @@ img {
 }
 
 .logo {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.me {
+  border-radius: 50%;
   width: 30%;
   margin: 0 auto;
   padding: 10px;
