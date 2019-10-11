@@ -8,7 +8,7 @@ export default function Background() {
             <img src={Bg} alt='Black laptop turned on' className='item' />
             <div className='text-block'>
                 <h1>Bilal Nehiri</h1>
-                <p>Full-Stack Web-Developer</p>
+                <p>Full Stack Web Developer</p>
             </div>
         </div>
     );

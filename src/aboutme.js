@@ -7,7 +7,7 @@ export default function AboutMe() {
       <h1>About me</h1>
       <img src={Me} alt='Me' className='me' />
       <p>
-      I am actively looking for the perfect opportunity to apply what i am learning, I enjoy playing guitar, my favorite number is 11, my favorite food is Indian and Italian, I was born in Khemisset (Morocco) and grew up in Mantes la Jolie (France), I can solve the Rubik's cube in less than a minute.
+      I am actively looking for the perfect opportunity to apply what i am learning, I enjoy playing guitar, my favorite number is 11, my favorite food is Indian and Italian, I was born in Morocco and grew up in France, I can solve the Rubik's cube in less than a minute.
       </p>
     </div>
   );

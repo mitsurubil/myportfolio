@@ -1,52 +1,26 @@
 import React from 'react';
-import Me from './images/me.jpg';
-import './projects.css';
+import MyProjects from './myProjects';
+import getProjects from './getProjects';
+// import './projects.css';
 
 export default function Projects() {
   return (
     <div className='projects' id='projects'>
-
       <h1>Some Projects</h1>
-      <p>Resize the browser window to see the responsive effect.</p>
-
-      <div class="row">
-        <div class="column">
-          <div class="content">
-            <img src={Me} alt="Mountains" />
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <img src={Me} alt="Lights" />
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <img src={Me} alt="Nature" />
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <img src={Me} alt="Mountains" />
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-          </div>
-        </div>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <div className='container3'>
+        {
+          getProjects().map(project => (
+            <MyProjects
+              key={project.id}
+              id={project.id}
+              name={project.name}
+              description={project.description}
+              img={project.img}
+            />
+          ))
+        }
       </div>
-
-      <div class="content">
-        <img src={Me} alt="Bear" />
-        <h3>Some Other Work</h3>
-        <p>Lorem ipsum..</p>
-      </div>
-
     </div>
-
   );
 }

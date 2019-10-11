@@ -1,34 +1,33 @@
 /* Center website */
 .projects {
-    padding-top: 80px;
-  }
+  padding-top: 80px;
+}
 
 .row {
-    display: flex;
-  }
+  display: flex;
+}
   
   /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
+.row,
+.row > .column {
+  padding: 8px;
+}
   
   /* Create four equal columns that floats next to each other */
-  .column {
-    width: 25%;
-  }
+.column {
+  width: 25%;
+}
   
   /* Content */
-  .content {
-    background-color: white;
-  
-  }
+.content {
+  background-color: white;
+}
 
 
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
       
-    .projects {
-      padding-top: 28px;
-    }
-    
+  .projects {
+    padding-top: 28px;
   }
+    
+}
