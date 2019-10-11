@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.b4998c73.chunk.css",
-    "main.js": "/myportfolio/static/js/main.acda9487.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.acda9487.chunk.js.map",
+    "main.css": "/myportfolio/static/css/main.a3ba9bcf.chunk.css",
+    "main.js": "/myportfolio/static/js/main.3551950e.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.3551950e.chunk.js.map",
     "runtime~main.js": "/myportfolio/static/js/runtime~main.2ecbf68a.js",
     "runtime~main.js.map": "/myportfolio/static/js/runtime~main.2ecbf68a.js.map",
-    "static/js/2.326070e7.chunk.js": "/myportfolio/static/js/2.326070e7.chunk.js",
-    "static/js/2.326070e7.chunk.js.map": "/myportfolio/static/js/2.326070e7.chunk.js.map",
+    "static/js/2.baafb0ab.chunk.js": "/myportfolio/static/js/2.baafb0ab.chunk.js",
+    "static/js/2.baafb0ab.chunk.js.map": "/myportfolio/static/js/2.baafb0ab.chunk.js.map",
     "index.html": "/myportfolio/index.html",
-    "precache-manifest.2f1915b5d19c8fa613415cd4cf003ce7.js": "/myportfolio/precache-manifest.2f1915b5d19c8fa613415cd4cf003ce7.js",
+    "precache-manifest.c3b9b79f1009309a3a7a776eb0e13c10.js": "/myportfolio/precache-manifest.c3b9b79f1009309a3a7a776eb0e13c10.js",
     "service-worker.js": "/myportfolio/service-worker.js",
-    "static/css/main.b4998c73.chunk.css.map": "/myportfolio/static/css/main.b4998c73.chunk.css.map",
+    "static/css/main.a3ba9bcf.chunk.css.map": "/myportfolio/static/css/main.a3ba9bcf.chunk.css.map",
     "static/media/bg-hp-matrix.jpg": "/myportfolio/static/media/bg-hp-matrix.ebf680af.jpg",
     "static/media/bg-hp.jpg": "/myportfolio/static/media/bg-hp.391edb83.jpg",
     "static/media/css3-icon.svg": "/myportfolio/static/media/css3-icon.2db97d69.svg",
@@ -20,6 +20,9 @@
     "static/media/javascript-icon.svg": "/myportfolio/static/media/javascript-icon.e169ba29.svg",
     "static/media/me.jpg": "/myportfolio/static/media/me.4859c78d.jpg",
     "static/media/nodejs-icon.svg": "/myportfolio/static/media/nodejs-icon.be2df796.svg",
+    "static/media/pf-bilflix.png": "/myportfolio/static/media/pf-bilflix.ee9baa35.png",
+    "static/media/pf-frigo-app.png": "/myportfolio/static/media/pf-frigo-app.97482691.png",
+    "static/media/pf-recipe-app.png": "/myportfolio/static/media/pf-recipe-app.24ec2159.png",
     "static/media/react-icon.svg": "/myportfolio/static/media/react-icon.eab76719.svg"
   }
 }

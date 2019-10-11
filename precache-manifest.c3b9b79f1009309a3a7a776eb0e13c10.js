@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c55b879c3c120797cb1b03f3aac64791",
+    "revision": "b6cd82989dffa713ec45be0b8e252f25",
     "url": "/myportfolio/index.html"
   },
   {
-    "revision": "a570d6dbad3aefaab676",
-    "url": "/myportfolio/static/css/main.b4998c73.chunk.css"
+    "revision": "4bdb50cffdf62be17a3e",
+    "url": "/myportfolio/static/css/main.a3ba9bcf.chunk.css"
   },
   {
-    "revision": "b9d0039e4fcdccf2f220",
-    "url": "/myportfolio/static/js/2.326070e7.chunk.js"
+    "revision": "46da2b3c186321c6d06d",
+    "url": "/myportfolio/static/js/2.baafb0ab.chunk.js"
   },
   {
-    "revision": "a570d6dbad3aefaab676",
-    "url": "/myportfolio/static/js/main.acda9487.chunk.js"
+    "revision": "4bdb50cffdf62be17a3e",
+    "url": "/myportfolio/static/js/main.3551950e.chunk.js"
   },
   {
     "revision": "4ba35835c09a2b0f1a6d",
@@ -54,6 +54,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "be2df79601b32143d336bd076429b909",
     "url": "/myportfolio/static/media/nodejs-icon.be2df796.svg"
+  },
+  {
+    "revision": "ee9baa356d0d3ffc4aa9ea647cbe7a19",
+    "url": "/myportfolio/static/media/pf-bilflix.ee9baa35.png"
+  },
+  {
+    "revision": "9748269101d99c0268d56056f84e4657",
+    "url": "/myportfolio/static/media/pf-frigo-app.97482691.png"
+  },
+  {
+    "revision": "24ec2159da47a9e9e7f56e1f44a9b2fe",
+    "url": "/myportfolio/static/media/pf-recipe-app.24ec2159.png"
   },
   {
     "revision": "eab76719fd611cab5eecb1eb1427675a",
