@@ -7,7 +7,11 @@ export default function AboutMe() {
       <h1>About me</h1>
       <img src={Me} alt='Me' className='me' />
       <p>
-      I am actively looking for the perfect opportunity to apply what i am learning, I enjoy playing guitar, my favorite number is 11, my favorite food is Indian and Italian, I was born in Morocco and grew up in France, I can solve the Rubik's cube in less than a minute.
+        Bonjour,
+          Last August I have joined Kodiri bootcamp in London to become Web Developer.
+          During this intensive 2 months I have learned Front end development with HTML, CSS, JavaScript, React and Back end development with Node Js. But also a working methodology with Agile.
+          We Mainly focused on problem solving and coding.
+          Now I am actively looking for the perfect opportunity to apply what I have learned during this past couple of months. Please Feel free to contact me if you have any suggestion.
       </p>
     </div>
   );
