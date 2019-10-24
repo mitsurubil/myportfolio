@@ -38,18 +38,31 @@ img {
   overflow: hidden;
 }
 
+.videoTag {
+  flex: 1;
+  flex-basis: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.projects p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .myProjects {
   flex: 1;
   flex-basis: 600px;
   position: relative;
   overflow: hidden;
   border: 1px solid black;
+  margin: 10%;
 }
 
 .text-block {
   position: absolute;
   color: white;
-  z-index: 999;
+  z-index: ;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -58,8 +71,10 @@ img {
 }
 
 .aboutme {
-  background-color: #003B00;
+  background-color: #1B2326;
   padding-top: 80px;
+  color: white;
+  position: relative;
 }
 
 .aboutme p {
@@ -73,6 +88,10 @@ img {
 
 .projects {
   padding-top: 80px;
+}
+
+video {
+  width: 100%;
 }
 
 .container2 {

@@ -11,7 +11,7 @@ function myProjects(props) {
     return (
         <div className='myProjects'>
             <img src={props.img} alt={`${props.name}`} className='projectImg' />
-            <a href={link()} target="_blank">
+            <a href={link()} target='_blank' rel='noopener noreferrer'>
                 <div className='overlap'>
                     <p>{props.name}</p>
                     <p>{props.description}</p>
